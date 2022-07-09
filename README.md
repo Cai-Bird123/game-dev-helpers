@@ -4,7 +4,7 @@ first change
 
 <h1> Utility map </h1> 
 <h2> Card Games </h2>
-<h3> Card Rotation </h3>
+<h3> CardRotation.cs </h3>
 Based on class by Vladimir Limarchenko in his udemy course - main alteration is allowing an assigned camera to be used instead of searching for camera main due to performance issues 
 uses raycast from assigned camera to hit a gameobject in front of the card. 
 If ray hits the object first then card is face up 
