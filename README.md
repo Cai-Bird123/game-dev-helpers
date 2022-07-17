@@ -10,6 +10,13 @@ uses raycast from assigned camera to hit a gameobject in front of the card.
 If ray hits the object first then card is face up 
 If ray has to cross the card collider then card is rotated to be face down, and therefore disable the front of the card graphics and show the back of the card graphics. 
 
+<h3> Dragger.cs </h3>
+Attach this to an independant game object and label the objects you want to drag and drop with this behaviour as "Draggable" in a tag. 
+freezes elevation and rotation when selected. 
+Tweak card lift and assigned camera. 
+#TODO 
+- make the translation position calculation code into a fucntion. 
+
 <h1> Gotchas </h1> 
 
 <h1> Useful techniques and resources </h1> 
